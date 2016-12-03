@@ -43,6 +43,23 @@ h6 {
   .sanchez-light;
 }
 
+ul {
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+li {
+  .sanchez-light;
+  strong &.text-faded{
+    color: white;
+    .sanchez-light;
+  }
+  strong &.text-muted{
+    color: @gray-darker;
+    .sanchez-light;
+  }
+}
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -64,7 +81,7 @@ p {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 aside {
@@ -78,17 +95,18 @@ aside {
 // Navigation
 
 .navbar-default {
-  background-color: @sand;
+  background-color: white;
   border-color: fade(@gray-darker, 5%);
   .sanchez-light;
   .transition-all;
+
   .navbar-header .navbar-brand {
     color: @turquoise;
     .sanchez-light;
     text-transform: uppercase;
     &:hover,
     &:focus {
-      color: darken(@turquoise, 10%);
+      color: darken(@magenta, 10%);
     }
   }
   .navbar-header .navbar-toggle {
@@ -106,7 +124,7 @@ aside {
         color: @dark-turquoise;
         &:hover {
           .sanchez-light;
-          color: @turquoise;
+          color: @magenta;
         }
       }
       &.active {
@@ -118,11 +136,17 @@ aside {
           &:hover {
             .sanchez-bold;
             background-color: transparent;
+            color: @magenta;
           }
         }
       }
     }
   }
+
+  ul{
+    padding: 0;
+  }
+
   @media (min-width: 768px) {
     background-color: transparent;
     border-color: fade(white, 30%);
@@ -130,7 +154,7 @@ aside {
       color: fade(white, 70%);
       &:hover,
       &:focus {
-        color: white;
+        color: @magenta;
       }
     }
 
@@ -138,7 +162,7 @@ aside {
     .nav > li > a:focus {
       color: fade(white, 70%);
       &:hover {
-        color: white;
+        color: @magenta;
       }
     }
 
@@ -150,14 +174,14 @@ aside {
         font-size: 14px;
         &:hover,
         &:focus {
-          color: darken(@turquoise, 10%);
+          color: @magenta;
         }
       }
       .nav > li > a,
       .nav > li > a:focus {
         color: @gray-darker;
         &:hover {
-          color: @turquoise;
+          color: @magenta;
         }
       }
     }
@@ -171,9 +195,8 @@ header {
   width: 100%;
   min-height: auto;
   .background-cover;
-  //background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url('../img/header.jpg'), center;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/fullsize/header.jpg');
 
   text-align: center;
   color: white;
@@ -234,21 +257,6 @@ header {
   margin-top: 0;
 }
 
-.skills-box {
-  ul {
-    list-style-type: none;
-    padding: 20px 0;
-  }
-
-  li {
-    .sanchez-light;
-    strong {
-      color: white;
-      .sanchez-light;
-    }
-  }
-}
-
 .service-box {
   max-width: 400px;
   margin: 50px auto 0;
@@ -260,68 +268,27 @@ header {
   }
 }
 
+#portfolio {
+  background-color: @green;
+  color: white;
+}
+
 .portfolio-box {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto;
-  .portfolio-box-caption {
-    color: white;
-    opacity: 0;
-    display: block;
-    background: fade(@turquoise, 90%);
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    .transition-all;
-    .portfolio-box-caption-content {
-      width: 100%;
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      .project-category,
-      .project-name {
-        .sans-serif-font;
-        padding: 0 15px;
-      }
-      .project-category {
-        text-transform: uppercase;
-        font-weight: 600;
-        font-size: 14px;
-      }
-      .project-name {
-        font-size: 18px;
-      }
-    }
-  }
+  padding: 20px;
+
   &:hover {
-    .portfolio-box-caption {
-      opacity: 1;
+    background-color: @turquoise;
+    opacity: 1;
+    img {
+      opacity: .5;
     }
   }
   &:focus {
     outline: none;
-  }
-  @media (min-width: 768px) {
-    .portfolio-box-caption {
-      .portfolio-box-caption-content {
-        .project-category {
-          font-size: 16px;
-        }
-        .project-name {
-          font-size: 22px;
-        }
-      }
-    }
-  }
-}
-
-.call-to-action {
-  h2 {
-    margin: 0 auto 20px;
   }
 }
 
@@ -341,7 +308,7 @@ header {
 }
 
 .btn-primary {
-  .button-variant(white; @turquoise; @turquoise);
+  .button-variant(white; @dark-turquoise; @dark-turquoise);
 }
 
 .btn {

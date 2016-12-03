@@ -57,6 +57,24 @@ h6 {
   font-family: 'Sanchez', serif;
   font-weight: 200;
 }
+ul {
+  list-style-type: none;
+  padding: 20px 0;
+}
+li {
+  font-family: 'Sanchez', serif;
+  font-weight: 200;
+}
+strong li.text-faded {
+  color: white;
+  font-family: 'Sanchez', serif;
+  font-weight: 200;
+}
+strong li.text-muted {
+  color: #222222;
+  font-family: 'Sanchez', serif;
+  font-weight: 200;
+}
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -75,7 +93,7 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 aside {
   padding: 50px 0;
@@ -84,7 +102,7 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: #d3cdad;
+  background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Sanchez', serif;
   font-weight: 200;
@@ -100,7 +118,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #006261;
+  color: #950a37;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-family: 'Sanchez', serif;
@@ -119,7 +137,7 @@ aside {
 .navbar-default .nav > li > a:focus:hover {
   font-family: 'Sanchez', serif;
   font-weight: 200;
-  color: #009593;
+  color: #c50d49;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
@@ -133,6 +151,10 @@ aside {
   font-family: 'Sanchez', serif;
   font-weight: 600;
   background-color: transparent;
+  color: #c50d49;
+}
+.navbar-default ul {
+  padding: 0;
 }
 @media (min-width: 768px) {
   .navbar-default {
@@ -144,7 +166,7 @@ aside {
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
-    color: white;
+    color: #c50d49;
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
@@ -152,7 +174,7 @@ aside {
   }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
-    color: white;
+    color: #c50d49;
   }
   .navbar-default.affix {
     background-color: white;
@@ -164,7 +186,7 @@ aside {
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #006261;
+    color: #c50d49;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -172,7 +194,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #009593;
+    color: #c50d49;
   }
 }
 header {
@@ -184,7 +206,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/fullsize/header.jpg');
   text-align: center;
   color: white;
 }
@@ -241,19 +263,6 @@ header .header-content .header-content-inner p {
 .section-heading {
   margin-top: 0;
 }
-.skills-box ul {
-  list-style-type: none;
-  padding: 20px 0;
-}
-.skills-box li {
-  font-family: 'Sanchez', serif;
-  font-weight: 200;
-}
-.skills-box li strong {
-  color: white;
-  font-family: 'Sanchez', serif;
-  font-weight: 200;
-}
 .service-box {
   max-width: 400px;
   margin: 50px auto 0;
@@ -266,62 +275,26 @@ header .header-content .header-content-inner p {
 .service-box p {
   margin-bottom: 0;
 }
+#portfolio {
+  background-color: #7aaf95;
+  color: white;
+}
 .portfolio-box {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto;
+  padding: 20px;
 }
-.portfolio-box .portfolio-box-caption {
-  color: white;
-  opacity: 0;
-  display: block;
-  background: rgba(0, 149, 147, 0.9);
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  padding: 0 15px;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 14px;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
-}
-.portfolio-box:hover .portfolio-box-caption {
+.portfolio-box:hover {
+  background-color: #009593;
   opacity: 1;
+}
+.portfolio-box:hover img {
+  opacity: .5;
 }
 .portfolio-box:focus {
   outline: none;
-}
-@media (min-width: 768px) {
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 16px;
-  }
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
-  }
-}
-.call-to-action h2 {
-  margin: 0 auto 20px;
 }
 .text-primary {
   color: #009593;
@@ -380,8 +353,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #009593;
-  border-color: #009593;
+  background-color: #4b7875;
+  border-color: #4b7875;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -393,8 +366,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #007c7a;
-  border-color: #007170;
+  background-color: #416866;
+  border-color: #3d6260;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -419,11 +392,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #009593;
-  border-color: #009593;
+  background-color: #4b7875;
+  border-color: #4b7875;
 }
 .btn-primary .badge {
-  color: #009593;
+  color: #4b7875;
   background-color: white;
 }
 .btn {
