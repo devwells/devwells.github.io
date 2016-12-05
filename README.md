@@ -1,27 +1,54 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
+Devin Wells
+Application Developer
+(443) 481-0441
+DevinRenee22@gmail.com
+https://devwells.github.io
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+I am a mathematician, artist and software developer. I translate the world into numbers and patterns to innovate, build and inspire change. I am in the process of learning how to make my impact on the world.
 
-## Getting Started
+ㅡ
+Skills
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/creative/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-creative.git`
-* Fork the repo
+Proficient Languages: Java, JavaScript, VBA, VBS
+Other Known Languages: PHP, Objective-C, C++
+Other Known Technologies: Selenium, SQL, CSS
+User Experience and Front-End Design
 
-## Bugs and Issues
+ㅡ
+Work Experience
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
+JP Morgan Chase  &Co / Application Developer
+JULY 2015 - PRESENT,  WILMINGTON, DELAWARE
+Developed a large-scale user-facing JavaScript Web Application
+Built a Java/Spring RESTful API
+Improved a Java Web Application used to manage reports for a regulatory program
+Leading a team of developers building a learning management system
+Created Selenium automation test scripts
+Automated processes using VBA and VBS
+Designed and implemented a repository of information for all of Consumer and Community Banking
+Spoke to over 200 coders at the Technica all-women hackathon
+Coordinated a Kid’s Coding Event using Arduino Robots
+Launched the #ILookLikeAnEngineer diversity event at JPMC
 
-## Creator
+ㅡ
+Education
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Salisbury University / Bachelor of Science in Mathematics
+AUGUST 2013 - MAY 2015,  SALISBURY, MARYLAND
+Scored a 9 on Putnam Exam - Highest in Salisbury History
+Won Gull Code Coding Competition Spring 2015
+Tutored students in Computer Science and Math
+Participated in Code for Good, ACM Coding competition and Gull Code Fall 2014
+Member of Math and Computer Science Club
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+ㅡ
+Project Experience
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
+Online Auction Website
+Developed full-stack online store - similar to eBay
+Architected and implemented the database
+Designed the front-end and all graphics
+Tools used: SQL, PHP, JQuery, JavaScript and CSS
+Maturity Time Capsule
+Built, architected, designed and implemented full-stack team maturity tracker
+Tools used: Maven, TomCat, Spring MVC, H2 database, Java, JavaScript, jsp and bootstrap.
